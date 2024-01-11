@@ -326,3 +326,6 @@ INSERT INTO Movies (VideoCode, MovieTitle, MovieType, Rating, RentalPrice, Produ
 INSERT INTO Movies (VideoCode, MovieTitle, MovieType, Rating, RentalPrice, ProducerID, Director, Media, TotalStock, NumberRented) VALUES (311,'Donny Brasco','Drama','R', 2,'RainTree','n/a','DVD', 3, 0);
 INSERT INTO Movies (VideoCode, MovieTitle, MovieType, Rating, RentalPrice, ProducerID, Director, Media, TotalStock, NumberRented) VALUES (312,'Mercury Rising','Action','R', 2,'Universal','n/a','DVD', 5, 0);
 
+
+SELECT * FROM Movies
+SELECT * FROM Movies ORDER BY MovieTitle ASC
